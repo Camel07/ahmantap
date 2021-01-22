@@ -1,1 +1,0 @@
-Telegram Group Management Bot
