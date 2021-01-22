@@ -33,18 +33,17 @@ Available commands are:
 # __main__
 	"Ada yang bisa saya bantu? 😊": "Is there anything I can help? 😊",
 	"start_text": """
-Hi {}, my name is {}! I am a group manager managed by [my master](tg://user?id={}).
-To get this bot status info and update, you can join our channel [Ayra's Bot News](https://t.me/AyraBotNews)
+Hi {}, my name is {}! I am a group manager managed by [Master](https://t.me/Hyoneechan).
+Specially created to eradicate humans who have bad personalities.
 
 Any issue or need more help?
-Join our group [Emilia Official Support](https://t.me/EmiliaOfficial)!
+You can use me to solve it!
 
 You can find the list of available commands with /help.
 
-If you're enjoying using me, and/or would like to help me survive in the wild, hit /donate to help fund/upgrade my VPS!
 """,
 	"help_text": """
-Hey there! My name is *Emilia*.
+Hey there! My name is *Dora*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 
