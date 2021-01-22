@@ -54,7 +54,7 @@ LYRICS_HANDLER = DisableAbleCommandHandler("lyrics", lyrics, pass_args=True)
 
 dispatcher.add_handler(LYRICS_HANDLER)
 
-__mod_name__ = "Songslyrics"
+__mod_name__ = "lyrics"
 __command_list__ = ["lyrics"]
 __handlers__ = [
     LYRICS_HANDLER
