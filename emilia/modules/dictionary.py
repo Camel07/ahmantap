@@ -31,6 +31,6 @@ With this module, you can find the definitions of words without having to leave 
 *Available commands:*
  - /define <word>: returns the definition of the word.
 """
-__mod_name__ = "DICTIONARY"
+__mod_name__ = "Dictionary"
 WIKI_HANDLER = DisableAbleCommandHandler("define", wiki, pass_args=True)
 dispatcher.add_handler(WIKI_HANDLER)
