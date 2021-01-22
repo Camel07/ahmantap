@@ -127,7 +127,7 @@ def __user_info__(user_id, chat_id):
 
 __help__ = "userinfo_help"
 
-__mod_name__ = "Bios and Abouts"
+__mod_name__ = "Bios and About"
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio)
 GET_BIO_HANDLER = DisableAbleCommandHandler("bio", about_bio, pass_args=True)
