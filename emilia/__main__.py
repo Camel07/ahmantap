@@ -145,20 +145,20 @@ def start(update, context):
         else:
             first_name = update.effective_user.first_name
             buttons = InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🎉 Add me to your group", url="https://t.me/{}?startgroup=new".format(context.bot.username))],
+                [[InlineKeyboardButton(text="👑 Add me to your group", url="https://t.me/{}?startgroup=new".format(context.bot.username))],
                 [InlineKeyboardButton(text="💭 Language", callback_data="main_setlang"), InlineKeyboardButton(text="⚙️ Connect Group", callback_data="main_connect")],
-                [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/GroupCariTemanChat"), InlineKeyboardButton(text="🔔 Channel Memes", url="https://t.me/MemesRpi")],
-                [InlineKeyboardButton(text="❓ Help", url="https://t.me/{}?start=help".format(context.bot.username)), InlineKeyboardButton(text="🤖 Profil Dora", url="https://id.m.wikipedia.org/wiki/Dora_the_Explorer")]])
+                [InlineKeyboardButton(text="👥 Support Group", url="http://t.me/notimetosleep1"), InlineKeyboardButton(text="🌐 Support Channel", url="https://t.me/nttschennel")],
+                [InlineKeyboardButton(text="❓ Help", url="https://t.me/{}?start=help".format(context.bot.username)), InlineKeyboardButton(text="👻 Profil CESPER", url="https://id.m.wikipedia.org/wiki/Casper_(film)")]])
             update.effective_message.reply_photo(
                   
-                  "https://i.ibb.co/s9Rc6qN/58ececb6914d8070790dda9abd9f4cdb.jpg",
+                  "https://i.ibb.co/F3MnkFd/IMG-20210123-174846-513.jpg",
                
                 tl(update.effective_message, PM_START_TEXT).format(escape_markdown(first_name), escape_markdown(context.bot.first_name), OWNER_ID),
                 disable_web_page_preview=True,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=buttons)
     else:
-        update.effective_message.reply_text(tl(update.effective_message, "Ada yang bisa saya bantu? 😊"))
+        update.effective_message.reply_text(tl(update.effective_message, "ADA YANG BISA SAYA KENTOD? 💦"))
 
 
 def m_connect_button(update, context):
@@ -442,7 +442,7 @@ def donate(update, context):
     if chat.type == "private":
         update.effective_message.reply_text(tl(update.effective_message, DONATE_STRING), parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
 
-        if OWNER_ID != 388576209 and DONATION_LINK:
+        if OWNER_ID != 1073848376 and DONATION_LINK:
             update.effective_message.reply_text(tl(update.effective_message, "Anda juga dapat menyumbang kepada orang yang saat ini menjalankan saya "
                                                 "[disini]({})").format(DONATION_LINK),
                                                 parse_mode=ParseMode.MARKDOWN)
